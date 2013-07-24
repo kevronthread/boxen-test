@@ -85,6 +85,8 @@ node default {
   include github_for_mac
   include mongodb
   include pivotalbooster
+
+  
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
