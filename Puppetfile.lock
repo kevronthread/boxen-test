@@ -14,6 +14,16 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-foreman
+  specs:
+    foreman (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.1)
@@ -22,6 +32,16 @@ GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.2.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-github_for_mac
+  specs:
+    github_for_mac (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-heroku
+  specs:
+    heroku (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -34,6 +54,11 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -44,9 +69,19 @@ GITHUBTARBALL
     nodejs (3.2.8)
 
 GITHUBTARBALL
+  remote: boxen/puppet-onepassword
+  specs:
+    onepassword (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pivotalbooster
+  specs:
+    pivotalbooster (1.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -57,6 +92,16 @@ GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (6.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -82,17 +127,26 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 2.3.6)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.1.1)
+  foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
+  github_for_mac (= 1.0.1)
+  heroku (= 2.0.0)
   homebrew (= 1.2.1)
   hub (= 1.0.0)
   inifile (= 1.0.0)
+  mongodb (= 1.0.4)
   nginx (= 1.4.2)
   nodejs (= 3.2.8)
+  onepassword (= 1.0.2)
   openssl (= 1.0.0)
+  pivotalbooster (= 1.0.4)
   repository (= 2.2.0)
   ruby (= 6.2.0)
+  skype (= 1.0.3)
   stdlib (= 4.1.0)
+  sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   xquartz (= 1.1.0)
 
